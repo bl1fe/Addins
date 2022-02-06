@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+	
+	
+	<AddIn Type="Command">
+		<Name>Combine</Name>
+		<Assembly>CombineParametersWinForm.dll</Assembly>
+		<AddInId>
+			DE440824-A127-403F-9284-712838757E31
+		</AddInId>
+		<Text>Объединить параметры</Text>
+		<Description>Задайте параметры и порядок объединения</Description>
+		<FullClassName>CombineParametersWinForm.Command</FullClassName>
+		<VendorId>Vendor ID</VendorId>
+		<VendorDescription>Vendor Description</VendorDescription>
+	</AddIn>
+	
+</RevitAddIns>

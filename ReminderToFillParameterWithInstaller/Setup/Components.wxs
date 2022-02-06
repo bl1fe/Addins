@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+
+
+	<Fragment>
+			<!--<ComponentGroup Id="ProductComponents" >-->
+			
+			<!-- Reference to something that is going to have test file as the ID -->
+			
+			<!--<ComponentRef Id="TestFile" />	</ComponentGroup>-->
+
+	
+			<!--References to directories that are in "Directories.wxs"--><!--
+			--><!--INSTALLFOLDER - folder we want to install into (Program Files Folder)--><!--
+			<DirectoryRef Id ="INSTALLFOLDER" >
+			--><!--Component wil have our file inside of it--><!--
+			--><!--TestFile - component, FileTestFile - physical file--><!--
+			<Component Id ="TestFile" Guid ="{AF1E09EF-D869-4DD5-81B1-BC8E6D5E1F1F}">
+				<File Id ="FileTestFile" Source ="data.txt" KeyPath="yes" />	
+			</Component>				   
+			</DirectoryRef>-->
+
+
+
+
+
+			<DirectoryRef Id ="Folder" >			
+			<Component Id ="DllFile" Guid ="{F141CCBD-E072-43D8-A8D3-303A22108141}">
+
+				<RegistryValue Root='HKCU' Key='Software\Manufacturer\Product'
+                     Name='Something (I like to use InstallFolder)'
+                     Value='Something (I like to use [INSTALLFOLDER]'
+                     Type='string'
+                     KeyPath='yes' />						
+				
+				<File Id ="FileDllFile" Source ="..\bin\Debug\ReminderParameter.dll" />
+
+				<!--<RemoveFolder Id='AppDataFolder' Directory='AppDataFolder' On='uninstall' />
+				<RemoveFolder Id='AutodeskFolder' Directory='AutodeskFolder' On='uninstall' />
+				<RemoveFolder Id='RevitFolder' Directory='RevitFolder' On='uninstall' />
+				<RemoveFolder Id='AddinsFolder' Directory='AddinsFolder' On='uninstall' />
+				<RemoveFolder Id='Folder' Directory='Folder' On='uninstall' />-->
+
+			</Component>
+			</DirectoryRef>
+
+
+		<DirectoryRef Id ="Folder" >
+			<Component Id ="AddinFile" Guid ="{825BC47E-4F29-42EE-B1D4-15BF13B15F22}">
+				
+				<RegistryValue Root='HKCU' Key='Software\Manufacturer\Product'
+                     Name='Something (I like to use InstallFolder)'
+                     Value='Something (I like to use [INSTALLFOLDER]'
+                     Type='string'
+                     KeyPath='yes' />
+
+				<File Id ="FileAddinFile" Source ="..\bin\Debug\rpAddin.addin" />
+
+				<!--<RemoveFolder Id='AppDataFolder' Directory='AppDataFolder' On='uninstall' />
+				<RemoveFolder Id='AutodeskFolder' Directory='AutodeskFolder' On='uninstall' />
+				<RemoveFolder Id='RevitFolder' Directory='RevitFolder' On='uninstall' />
+				<RemoveFolder Id='AddinsFolder' Directory='AddinsFolder' On='uninstall' />
+				<RemoveFolder Id='Folder' Directory='Folder' On='uninstall' />-->
+
+			</Component>			
+			
+		</DirectoryRef>
+
+
+
+		<DirectoryRef Id ="Folder" >
+			<Component Id ="EPPlusFile" Guid ="{469879C9-82EF-4D4C-9AEA-8A877D85A74B}">
+				
+				<RegistryValue Root='HKCU' Key='Software\Manufacturer\Product'
+                     Name='Something (I like to use InstallFolder)'
+                     Value='Something (I like to use [INSTALLFOLDER]'
+                     Type='string'
+                     KeyPath='yes' />
+
+				<File Id ="FileEPPlusFile" Source ="..\bin\Debug\EPPlus.dll" />
+
+				<RemoveFolder Id='AppDataFolder' Directory='AppDataFolder' On='uninstall' />
+				<RemoveFolder Id='AutodeskFolder' Directory='AutodeskFolder' On='uninstall' />
+				<RemoveFolder Id='RevitFolder' Directory='RevitFolder' On='uninstall' />
+				<RemoveFolder Id='AddinsFolder' Directory='AddinsFolder' On='uninstall' />
+				<RemoveFolder Id='Folder' Directory='Folder' On='uninstall' />
+
+			</Component>
+
+
+
+		</DirectoryRef>
+		
+		
+		
+		
+
+		
+
+	</Fragment>	
+</Wix>
+
+

@@ -1,0 +1,43 @@
+D:\bf\PLUGINS\Combine Parameters Windows Form\CombineParametersWinForm\obj\Debug\CombineParametersWinForm.Form1.resources
+D:\bf\PLUGINS\Combine Parameters Windows Form\CombineParametersWinForm\obj\Debug\CombineParametersWinForm.csproj.GenerateResource.cache
+D:\bf\PLUGINS\Combine Parameters Windows Form\CombineParametersWinForm\obj\Debug\CombineParametersWinForm.csproj.CoreCompileInputs.cache
+D:\bf\PLUGINS\Combine Parameters Windows Form\CombineParametersWinForm\bin\Debug\CombineParametersWinForm.dll
+D:\bf\PLUGINS\Combine Parameters Windows Form\CombineParametersWinForm\bin\Debug\CombineParametersWinForm.pdb
+D:\bf\PLUGINS\Combine Parameters Windows Form\CombineParametersWinForm\obj\Debug\CombineParametersWinForm.dll
+D:\bf\PLUGINS\Combine Parameters Windows Form\CombineParametersWinForm\obj\Debug\CombineParametersWinForm.pdb
+D:\bf\PLUGINS\Combine Parameters Windows Form\CombineParametersWinForm\bin\Debug\Parameters.addin
+D:\bf\PLUGINS\Combine Parameters Windows Form\CombineParametersWinForm\obj\Debug\CombineParametersWinForm.csprojAssemblyReference.cache
+C:\Users\b-filippov\Desktop\Git\DESK\CombineParametersWinForm\bin\Debug\Parameters.addin
+C:\Users\b-filippov\Desktop\Git\DESK\CombineParametersWinForm\bin\Debug\CombineParametersWinForm.dll
+C:\Users\b-filippov\Desktop\Git\DESK\CombineParametersWinForm\bin\Debug\CombineParametersWinForm.pdb
+C:\Users\b-filippov\Desktop\Git\DESK\CombineParametersWinForm\obj\Debug\CombineParametersWinForm.Form1.resources
+C:\Users\b-filippov\Desktop\Git\DESK\CombineParametersWinForm\obj\Debug\CombineParametersWinForm.csproj.GenerateResource.cache
+C:\Users\b-filippov\Desktop\Git\DESK\CombineParametersWinForm\obj\Debug\CombineParametersWinForm.csproj.CoreCompileInputs.cache
+C:\Users\b-filippov\Desktop\Git\DESK\CombineParametersWinForm\obj\Debug\CombineParametersWinForm.dll
+C:\Users\b-filippov\Desktop\Git\DESK\CombineParametersWinForm\obj\Debug\CombineParametersWinForm.pdb
+D:\bf\DESK\Plugins\00 Completed addins\CombineParametersWinForm\bin\Debug\Parameters.addin
+D:\bf\DESK\Plugins\00 Completed addins\CombineParametersWinForm\bin\Debug\CombineParametersWinForm.dll
+D:\bf\DESK\Plugins\00 Completed addins\CombineParametersWinForm\bin\Debug\CombineParametersWinForm.pdb
+D:\bf\DESK\Plugins\00 Completed addins\CombineParametersWinForm\obj\Debug\CombineParametersWinForm.csprojAssemblyReference.cache
+D:\bf\DESK\Plugins\00 Completed addins\CombineParametersWinForm\obj\Debug\CombineParametersWinForm.Form1.resources
+D:\bf\DESK\Plugins\00 Completed addins\CombineParametersWinForm\obj\Debug\CombineParametersWinForm.csproj.GenerateResource.cache
+D:\bf\DESK\Plugins\00 Completed addins\CombineParametersWinForm\obj\Debug\CombineParametersWinForm.csproj.CoreCompileInputs.cache
+D:\bf\DESK\Plugins\00 Completed addins\CombineParametersWinForm\obj\Debug\CombineParametersWinForm.dll
+D:\bf\DESK\Plugins\00 Completed addins\CombineParametersWinForm\obj\Debug\CombineParametersWinForm.pdb
+D:\bf\Enter\Plugins\00 Completed addins\CombineParametersWinForm\bin\Debug\Parameters.addin
+D:\bf\Enter\Plugins\00 Completed addins\CombineParametersWinForm\bin\Debug\CombineParametersWinForm.dll
+D:\bf\Enter\Plugins\00 Completed addins\CombineParametersWinForm\bin\Debug\CombineParametersWinForm.pdb
+D:\bf\Enter\Plugins\00 Completed addins\CombineParametersWinForm\obj\Debug\CombineParametersWinForm.csproj.AssemblyReference.cache
+D:\bf\Enter\Plugins\00 Completed addins\CombineParametersWinForm\obj\Debug\CombineParametersWinForm.Form1.resources
+D:\bf\Enter\Plugins\00 Completed addins\CombineParametersWinForm\obj\Debug\CombineParametersWinForm.csproj.GenerateResource.cache
+D:\bf\Enter\Plugins\00 Completed addins\CombineParametersWinForm\obj\Debug\CombineParametersWinForm.csproj.CoreCompileInputs.cache
+D:\bf\Enter\Plugins\00 Completed addins\CombineParametersWinForm\obj\Debug\CombineParametersWinForm.dll
+D:\bf\Enter\Plugins\00 Completed addins\CombineParametersWinForm\obj\Debug\CombineParametersWinForm.pdb
+D:\bf\Enter\Plugins\00 Completed addins\CombineParametersWinForm(u)\bin\Debug\Parameters.addin
+D:\bf\Enter\Plugins\00 Completed addins\CombineParametersWinForm(u)\bin\Debug\CombineParametersWinForm.dll
+D:\bf\Enter\Plugins\00 Completed addins\CombineParametersWinForm(u)\bin\Debug\CombineParametersWinForm.pdb
+D:\bf\Enter\Plugins\00 Completed addins\CombineParametersWinForm(u)\obj\Debug\CombineParametersWinForm.Form1.resources
+D:\bf\Enter\Plugins\00 Completed addins\CombineParametersWinForm(u)\obj\Debug\CombineParametersWinForm.csproj.GenerateResource.cache
+D:\bf\Enter\Plugins\00 Completed addins\CombineParametersWinForm(u)\obj\Debug\CombineParametersWinForm.csproj.CoreCompileInputs.cache
+D:\bf\Enter\Plugins\00 Completed addins\CombineParametersWinForm(u)\obj\Debug\CombineParametersWinForm.dll
+D:\bf\Enter\Plugins\00 Completed addins\CombineParametersWinForm(u)\obj\Debug\CombineParametersWinForm.pdb

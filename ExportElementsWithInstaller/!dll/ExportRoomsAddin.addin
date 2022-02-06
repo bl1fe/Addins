@@ -1,0 +1,18 @@
+﻿<RevitAddIns>
+
+
+	<AddIn Type="Command">
+		<Text>Экспорт комнат</Text>
+		<Assembly>ExportElements.dll</Assembly>
+		<AddInId>
+			EC43A4F3-0947-45F2-B244-035952484936
+		</AddInId>
+		<FullClassName>ExportElements.ExportRooms</FullClassName>		
+		<Description>Плагин для экспорта комнат (Description)</Description>
+		<VendorId>VendorId</VendorId>
+		<VendorDescription>VendorDescription</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+
+
+</RevitAddIns>

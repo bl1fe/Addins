@@ -1,0 +1,15 @@
+﻿
+<RevitAddIns>
+
+<AddIn Type="Application">
+	<Name>Cube</Name>
+	<Assembly>CubeA.dll</Assembly>
+	<AddInId>
+		293567F3-5DD1-4CB2-B2A7-AA66D7673FD1
+	</AddInId>
+	<FullClassName>CubeA.Button</FullClassName>
+	<VendorId>Vendor ID</VendorId>
+	<VendorDescription>Vendor Description</VendorDescription>
+</AddIn>
+
+</RevitAddIns>

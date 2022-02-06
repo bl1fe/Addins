@@ -1,0 +1,24 @@
+﻿<RevitAddIns>
+
+
+	<AddIn Type="Command">
+		<Name>Export Rooms</Name>
+		<Assembly>ExportElements.dll</Assembly>
+		<AddInId>
+			F948B693-6133-475B-ABC8-1604FD7A1E07
+		</AddInId>
+		<FullClassName>ExportElements.ExportRooms</FullClassName>
+		<VendorId>VendorId</VendorId>
+		<VendorDescription>VendorDescription</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+
+
+
+
+
+
+
+
+
+</RevitAddIns>

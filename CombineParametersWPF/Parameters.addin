@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+
+<AddIn Type="Application">
+	<Name>Combine Parameters</Name>
+	<Assembly>CombineParameters.dll</Assembly>
+	<AddInId>
+		5C1F4426-F7BE-42EF-9B8B-C4BD0FE8CD68
+	</AddInId>
+	<FullClassName>CombineParameters.ExternalApplication</FullClassName>
+	<VendorId>Vendor ID</VendorId>
+	<VendorDescription>Vendor Description</VendorDescription>
+</AddIn>
+
+
+</RevitAddIns>

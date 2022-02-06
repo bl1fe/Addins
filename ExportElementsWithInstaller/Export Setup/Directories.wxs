@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+
+
+			<Directory Id="AppDataFolder">
+
+				<Directory Id="AutodeskFolder" Name="Autodesk">
+
+					<Directory Id="RevitFolder" Name="Revit">
+
+						<Directory Id="AddinsFolder" Name="Addins">
+
+							<Directory Id="Folder" Name="2019"/>
+						</Directory>
+
+					</Directory>
+
+				</Directory>
+
+			</Directory>
+
+		</Directory>
+	</Fragment>
+</Wix>

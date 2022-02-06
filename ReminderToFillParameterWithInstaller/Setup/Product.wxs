@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+
+	<!--<?if $(var.Platform)=x64?>
+
+	<?define ProductCode = "{60380D9C-7ECF-4999-89FD-B364CB33FF65}" ?>
+	
+	<?else?>
+	<?define ProductCode = "{E632FEB3-65BA-48FD-BD04-82B084CE974D}" ?>
+	<?endif?>-->
+
+
+
+	<?define ProductCode = "{60380D9C-7ECF-4999-89FD-B364CB33FF65}" ?>
+	<?define UpgradeCode = "{607989AB-E6F0-4999-9B8F-2917043B44D0}" ?>		
+	<?define BuildVersion = 1.2.3.4 ?>	
+	
+	<Product Id="$(var.ProductCode)"
+			 Name="!(loc.ProductName_$(var.Platform))"
+			 Language="!(loc.Language)"
+			 Version="$(var.BuildVersion)"
+			 Manufacturer="!(loc.Company)"
+			 UpgradeCode="$(var.UpgradeCode)">
+		<Package InstallerVersion="200"
+				 Compressed="yes"
+				 InstallScope="perMachine" 
+				  Platform="$(var.Platform)"
+				  Manufacturer="!(loc.Company)"
+				  Description="!(loc.Description)"
+                  Keywords="!(loc.Keywords)"
+                  Comments="!(loc.Comments)"
+                  Languages="!(loc.Language)"
+				 />
+
+		<!-- Create a basic UI for the installer -->
+		<!--<UIRef Id="WixUI_Minimal" />-->
+		
+		<!-- License -->
+		<!--<WixVariable Id ="WixUILicenseRtf" Value="$(var.ProjectDir)\Assets\License.rtf" />-->
+
+		<!-- Downgrade error message -->
+		<MajorUpgrade DowngradeErrorMessage="!(loc.DowngradeErrorMessage)" />
+		
+		<MediaTemplate EmbedCab="yes"/>
+
+		
+		<Feature Id="FileDll" Title="Setup" Level="1">
+		<ComponentRef Id="DllFile" />
+			
+		</Feature>
+
+		<Feature Id="FileAddin" Title="Setup" Level="1">
+			<ComponentRef Id="AddinFile" />
+			
+		</Feature>
+
+		<Feature Id="EPPlusRef" Title="Setup" Level="1">
+			<ComponentRef Id="EPPlusFile" />
+
+		</Feature>
+
+		
+		
+		
+		
+		
+		
+		
+	</Product>	  
+	
+</Wix>

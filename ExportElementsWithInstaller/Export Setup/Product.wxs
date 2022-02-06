@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+
+	<?define ProductCode = "{7AACC726-EC02-4E33-932C-38CFB006CF49}" ?>
+	<?define UpgradeCode = "{B7EFC84A-234B-430C-B659-925822BA0327}" ?>
+	<?define BuildVersion = 1.2.3.4 ?>
+	
+	<Product Id="$(var.ProductCode)"
+			 Name="!(loc.ProductName_$(var.Platform))"
+			 Language="!(loc.Language)"
+			 Version="$(var.BuildVersion)"
+			 Manufacturer="!(loc.Company)"
+			 UpgradeCode="$(var.UpgradeCode)">
+		<Package InstallerVersion="200"
+				 Compressed="yes"
+				 InstallScope="perMachine"
+				  Platform="$(var.Platform)"
+				  Manufacturer="!(loc.Company)"
+				  Description="!(loc.Description)"
+                  Keywords="!(loc.Keywords)"
+                  Comments="!(loc.Comments)"
+                  Languages="!(loc.Language)"
+				 />
+
+		<MajorUpgrade DowngradeErrorMessage="!(loc.DowngradeErrorMessage)" />
+
+		<MediaTemplate EmbedCab="yes"/>
+
+
+		<Feature Id="FileDll" Title="Setup" Level="1">
+			<ComponentRef Id="DllFile" />
+		</Feature>
+		
+		<Feature Id="FileAddin" Title="Setup" Level="1">
+			<ComponentRef Id="AddinFile" />
+		</Feature>
+
+		<Feature Id="FileAddin2" Title="Setup" Level="1">
+			<ComponentRef Id="AddinFile2" />
+		</Feature>
+		
+		<Feature Id="EPPlusRef" Title="Setup" Level="1">
+			<ComponentRef Id="EPPlusFile" />
+		</Feature>
+
+
+	</Product>
+
+</Wix>

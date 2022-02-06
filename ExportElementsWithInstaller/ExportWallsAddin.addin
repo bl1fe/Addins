@@ -1,0 +1,17 @@
+﻿<RevitAddIns>
+
+
+	<AddIn Type="Command">		
+		<Text>Экспорт стен</Text>
+		<Assembly>ExportElements.dll</Assembly>
+		<AddInId>
+			06B9A9C9-2EC3-45AB-AB72-670F0BC07315
+		</AddInId>
+		<FullClassName>ExportElements.ExportWalls</FullClassName>
+		<VendorId>VendorId</VendorId>
+		<VendorDescription>VendorDescription</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+
+
+</RevitAddIns>

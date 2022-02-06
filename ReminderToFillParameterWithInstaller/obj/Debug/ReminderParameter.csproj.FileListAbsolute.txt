@@ -1,0 +1,12 @@
+D:\bf\Enter\Plugins\00 Completed addins\Git\ReminderToFillParameterWithInstaller1\obj\Debug\ReminderParameter.csproj.AssemblyReference.cache
+D:\bf\Enter\Plugins\00 Completed addins\Git\ReminderToFillParameterWithInstaller1\obj\Debug\ReminderParameter.csproj.CoreCompileInputs.cache
+D:\bf\Enter\Plugins\Addins Folder\Git\ReminderToFillParameterWithInstaller1\bin\Debug\rpAddin.addin
+D:\bf\Enter\Plugins\Addins Folder\Git\ReminderToFillParameterWithInstaller1\bin\Debug\ReminderParameter.dll.config
+D:\bf\Enter\Plugins\Addins Folder\Git\ReminderToFillParameterWithInstaller1\bin\Debug\ReminderParameter.dll
+D:\bf\Enter\Plugins\Addins Folder\Git\ReminderToFillParameterWithInstaller1\bin\Debug\ReminderParameter.pdb
+D:\bf\Enter\Plugins\Addins Folder\Git\ReminderToFillParameterWithInstaller1\bin\Debug\EPPlus.dll
+D:\bf\Enter\Plugins\Addins Folder\Git\ReminderToFillParameterWithInstaller1\bin\Debug\EPPlus.xml
+D:\bf\Enter\Plugins\Addins Folder\Git\ReminderToFillParameterWithInstaller1\obj\Debug\ReminderParameter.csproj.CoreCompileInputs.cache
+D:\bf\Enter\Plugins\Addins Folder\Git\ReminderToFillParameterWithInstaller1\obj\Debug\ReminderParameter.dll
+D:\bf\Enter\Plugins\Addins Folder\Git\ReminderToFillParameterWithInstaller1\obj\Debug\ReminderParameter.pdb
+D:\bf\Enter\Plugins\Addins Folder\Git\ReminderToFillParameterWithInstaller1\obj\Debug\ReminderParameter.csproj.AssemblyReference.cache

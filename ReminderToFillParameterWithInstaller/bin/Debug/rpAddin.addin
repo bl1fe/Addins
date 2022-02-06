@@ -1,0 +1,17 @@
+﻿<RevitAddIns>
+
+	<AddIn Type="DBApplication">
+		<Name>Проверка заполненности параметра</Name>
+		<Assembly>ReminderParameter.dll</Assembly>
+		<AddInId>
+			4C165C34-61A2-4EFB-8A3D-26BD20F70FBE
+		</AddInId>
+		<FullClassName>ReminderParameter.RP</FullClassName>
+		<VendorId>VendorId</VendorId>
+		<VendorDescription>VendorDescription</VendorDescription>
+	</AddIn>
+
+	
+	
+</RevitAddIns>
+

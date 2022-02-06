@@ -1,0 +1,15 @@
+﻿<RevitAddIns>
+
+	<AddIn Type="Application">
+		<Name>Окраска квартир</Name>
+		<Assembly>Addins.dll</Assembly>
+		<AddInId>
+			AB77EDA8-DCFB-4199-9577-07B5BD93EF68
+		</AddInId>
+		<FullClassName>Addins.ApartmentColor.Button</FullClassName>
+		<VendorId>DX</VendorId>
+		<VendorDescription>Engineering services</VendorDescription>
+	</AddIn>
+
+</RevitAddIns>
+

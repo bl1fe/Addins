@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<RevitAddIns>	
+
+	<AddIn Type="Application">
+		<Name>Комманды</Name>
+		<Text>Commands</Text>
+		<Assembly>Commands.dll</Assembly>
+		<AddInId>
+			C0058AEC-CB9D-485A-B665-58D92EDE6880
+		</AddInId>
+		<FullClassName>Commands.Panel</FullClassName>
+		<VendorId>VendorId</VendorId>
+		<VendorDescription>VendorDescription</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>	
+
+</RevitAddIns>
