@@ -23,14 +23,20 @@ namespace Commands
             //Create Ribbon Element
             app.CreateRibbonTab("Commands");
             string path = Assembly.GetExecutingAssembly().Location;
-            PushButtonData button = new PushButtonData("Высота стен", "Изменить высоту стен", path, "Commands.WallHeight");
-            RibbonPanel panel = app.CreateRibbonPanel("Commands", "Стены");
-            PushButton pushButton = panel.AddItem(button) as PushButton;
+            PushButtonData button1 = new PushButtonData("Wall Height", "Set Wall Height", path, "Commands.WallHeight");
+            PushButtonData button2 = new PushButtonData("Parameter", "Change Parameter", path, "Commands.SetParameter");
 
-            Uri imagePath = new Uri(@"");
-            BitmapImage image = new BitmapImage(imagePath);
+            RibbonPanel panel = app.CreateRibbonPanel("Commands", "Tools for automation");
+            PushButton pushButton1 = panel.AddItem(button1) as PushButton;
+            PushButton pushButton2 = panel.AddItem(button2) as PushButton;
 
-            pushButton.LargeImage = image;
+            Uri imagePath1 = new Uri(@"https://i.ibb.co/WK0LBg0/wall-icon-32.png");
+            Uri imagePath2 = new Uri(@"https://i.ibb.co/xYhqjVG/ICON-ICX-icon-32.png");
+            BitmapImage image1 = new BitmapImage(imagePath1);
+            BitmapImage image2 = new BitmapImage(imagePath2);
+
+            pushButton1.LargeImage = image1;
+            pushButton2.LargeImage = image2;
 
             return Result.Succeeded;
         }
